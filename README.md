@@ -12,6 +12,7 @@ Examples:
 `python ttic.py 3 -tf`
 
 ```
+A B C
 T	T	T
 T	T	F
 T	F	T
@@ -25,6 +26,7 @@ F	F	F
 `python ttic.py 4`
 
 ```
+A B C D
 0	0	0	0
 0	0	0	1
 0	0	1	0
