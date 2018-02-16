@@ -7,10 +7,10 @@ To use:
 
 By default, the table will be generated with binary values. Pass the `-tf` flag to generate 'T' and 'F' values.
 
-Example:
+Examples:
 
 `python ttic.py 3 -tf`
-
+Output:
 ```
 T	T	T
 T	T	F
@@ -20,4 +20,25 @@ F	T	T
 F	T	F
 F	F	T
 F	F	F
+```
+
+`python ttic.py 4`
+Output:
+```
+0	0	0	0
+0	0	0	1
+0	0	1	0
+0	0	1	1
+0	1	0	0
+0	1	0	1
+0	1	1	0
+0	1	1	1
+1	0	0	0
+1	0	0	1
+1	0	1	0
+1	0	1	1
+1	1	0	0
+1	1	0	1
+1	1	1	0
+1	1	1	1
 ```
