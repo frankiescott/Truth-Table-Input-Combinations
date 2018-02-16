@@ -1,5 +1,5 @@
 # Truth Table Input Combinations
-Generates an Excel spreadsheet table with all possible input combinations for a truth table.
+Generates all possible input combinations for a truth table and stores the table in an Excel spreadsheet.
 
 To use:
 
