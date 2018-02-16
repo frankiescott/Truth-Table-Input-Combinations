@@ -12,7 +12,7 @@ Examples:
 `python ttic.py 3 -tf`
 
 ```
-A   B   C
+A	B	C
 T	T	T
 T	T	F
 T	F	T
@@ -20,13 +20,12 @@ T	F	F
 F	T	T
 F	T	F
 F	F	T
-F	F	F
 ```
 
 `python ttic.py 4`
 
 ```
-A   B   C   D
+A	B	C	D
 0	0	0	0
 0	0	0	1
 0	0	1	0
@@ -42,5 +41,4 @@ A   B   C   D
 1	1	0	0
 1	1	0	1
 1	1	1	0
-1	1	1	1
 ```
