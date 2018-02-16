@@ -1,5 +1,5 @@
 # Truth Table Input Combinations
-Generates an Excel spreadsheet
+Generates an Excel spreadsheet table with all possible input combinations for a truth table.
 
 To use:
 
@@ -10,7 +10,7 @@ By default, the table will be generated with binary values. Pass the `-tf` flag 
 Examples:
 
 `python ttic.py 3 -tf`
-Output:
+
 ```
 T	T	T
 T	T	F
@@ -23,7 +23,7 @@ F	F	F
 ```
 
 `python ttic.py 4`
-Output:
+
 ```
 0	0	0	0
 0	0	0	1
