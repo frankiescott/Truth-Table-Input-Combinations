@@ -20,6 +20,7 @@ T	F	F
 F	T	T
 F	T	F
 F	F	T
+F	F	F
 ```
 
 `python ttic.py 4`
@@ -41,4 +42,5 @@ A	B	C	D
 1	1	0	0
 1	1	0	1
 1	1	1	0
+1	1	1	1
 ```
