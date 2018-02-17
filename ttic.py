@@ -25,7 +25,7 @@ for col in range(1, inputs + 1):
     split = pow(2, inputs) / 2
     counter = 0
     val = 0
-    for row in range(2, total_entries + 1):
+    for row in range(2, total_entries + 2):
         ws.cell(column=col, row=row, value=values[val])
         counter += 1
 
